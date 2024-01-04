@@ -3,5 +3,5 @@ interface PricingCardInfoProps {
 }
 
 export default function PricingCardInfo({ title }: PricingCardInfoProps) {
-  return <p className="text-[#747474] text-sm"></p>;
+  return <p className="text-[#747474] text-sm">{title}</p>;
 }
