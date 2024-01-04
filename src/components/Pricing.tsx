@@ -24,7 +24,7 @@ function PricingCard({ title }: PricingCardProps) {
 
 export default function Pricing() {
   return (
-    <section className="flex mt-[78px] justify-between">
+    <section id="pricing" className="flex mt-[78px] justify-between">
       <PricingCard title="Startup" />
       <div className="text-center rounded bg-[#2C3140] w-[300px] text-white p-10">
         <h4 className="text-2xl font-bold">Business</h4>
