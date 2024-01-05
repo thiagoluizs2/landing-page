@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center text-center mt-[78px]">
       <h1 className="text-[64px] font-black">
-        Manage All Your Social Media Profiles From One Place.
+        Manage All Your Social Media <span className="bg-primary text-white">Profiles From One Place.</span>
       </h1>
       <div className="flex justify-between max-w-[794px] w-full mt-[39px]">
         <div className="flex gap-5">
