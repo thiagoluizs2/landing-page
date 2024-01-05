@@ -1,40 +1,59 @@
 import PricingCard from "./PricingCard";
-import PricingCardInfo from "./PricingCardInfo";
 
 export default function Pricing() {
   return (
     <section id="pricing" className="flex mt-[78px] justify-between">
-      <PricingCard title="Startup" value={14} />
-      <div className="text-center rounded bg-[#2C3140] w-[300px] text-white p-10">
-        <h4 className="text-2xl font-bold">Business</h4>
-        <strong className="text-[64px]">$29</strong>
-        <p className="text-[#DDD] text-sm">per user, per month</p>
-        <button className="rounded-[3px] h-[52px] w-[223px] font-semibold border-solid border-2 bg-[#1465FA] text-white mt-[23px]">
+      <PricingCard>
+        <PricingCard.Title>Startup</PricingCard.Title>
+        <PricingCard.Value>$14</PricingCard.Value>
+        <p className="text-sm">per user, per month</p>
+        <PricingCard.Button>Start My 15-day trial</PricingCard.Button>
+        <PricingCard.List>
+          <PricingCard.Item>10 Social Profiles</PricingCard.Item>
+          <PricingCard.Item>25 Scheduled Posts Per Profile</PricingCard.Item>
+          <PricingCard.Item>400+ Templates</PricingCard.Item>
+          <PricingCard.Item>Calendar View</PricingCard.Item>
+          <PricingCard.Item>24/7 Support</PricingCard.Item>
+        </PricingCard.List>
+      </PricingCard>
+      <PricingCard className="bg-[#2C3140] text-white">
+        <PricingCard.Title>Business</PricingCard.Title>
+        <PricingCard.Value>$29</PricingCard.Value>
+        <p className="text-sm">per user, per month</p>
+        <PricingCard.Button className="text-white bg-primary">
           Start My 15-day trial
-        </button>
-        <div className="flex flex-col gap-3 mt-5">
-          <PricingCardInfo title="10 Social Profiles" />
-          <PricingCardInfo title="25 Scheduled Posts Per Profile" />
-          <PricingCardInfo title="400+ Templates" />
-          <PricingCardInfo title="Calendar View" />
-          <PricingCardInfo title="24/7 Support" />
-        </div>
-      </div>
-      <div className="text-center rounded w-[300px] p-10">
-        <h4 className="text-2xl font-bold">Agency</h4>
-        <strong className="text-[64px]">$139</strong>
-        <p className="text-[#747474] text-sm">per user, per month</p>
-        <button className="text-[#1465FA] rounded-[3px] h-[52px] w-[223px] font-semibold border-solid border-2 border-[#1465FA] mt-[23px]">
-          Start My 15-day trial
-        </button>
-        <div className="flex flex-col gap-3 mt-5">
-          <PricingCardInfo title="100 Social Profiles" />
-          <PricingCardInfo title="100 Scheduled Posts Per Profile" />
-          <PricingCardInfo title="400+ Templates" />
-          <PricingCardInfo title="Calendar View" />
-          <PricingCardInfo title="24/7 Support" />
-        </div>
-      </div>
+        </PricingCard.Button>
+        <PricingCard.List>
+          <PricingCard.Item className="text-white">
+            10 Social Profiles
+          </PricingCard.Item>
+          <PricingCard.Item className="text-white">
+            25 Scheduled Posts Per Profile
+          </PricingCard.Item>
+          <PricingCard.Item className="text-white">
+            400+ Templates
+          </PricingCard.Item>
+          <PricingCard.Item className="text-white">
+            Calendar View
+          </PricingCard.Item>
+          <PricingCard.Item className="text-white">
+            24/7 Support
+          </PricingCard.Item>
+        </PricingCard.List>
+      </PricingCard>
+      <PricingCard>
+        <PricingCard.Title>Agency</PricingCard.Title>
+        <PricingCard.Value>$139</PricingCard.Value>
+        <p className="text-sm">per user, per month</p>
+        <PricingCard.Button>Start My 15-day trial</PricingCard.Button>
+        <PricingCard.List>
+          <PricingCard.Item>100 Social Profiles</PricingCard.Item>
+          <PricingCard.Item>100 Scheduled Posts Per Profile</PricingCard.Item>
+          <PricingCard.Item>400+ Templates</PricingCard.Item>
+          <PricingCard.Item>Calendar View</PricingCard.Item>
+          <PricingCard.Item>24/7 Support</PricingCard.Item>
+        </PricingCard.List>
+      </PricingCard>
     </section>
   );
 }

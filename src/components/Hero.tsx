@@ -8,16 +8,13 @@ export default function Hero() {
       </h1>
       <div className="flex justify-between max-w-[794px] w-full mt-[39px]">
         <div className="flex gap-5">
-          <Icons.check />
-          Free 15-day trial
+          <Icons.check /> Free 15-day trial
         </div>
         <div className="flex gap-5">
-          <Icons.check />
-          Unlimited Team Members
+          <Icons.check /> Unlimited Team Members
         </div>
         <div className="flex gap-5">
-          <Icons.check />
-          Cancel Anytime
+          <Icons.check /> Cancel Anytime
         </div>
       </div>
     </section>

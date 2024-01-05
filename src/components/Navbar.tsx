@@ -12,10 +12,10 @@ export default function Navbar() {
           <a href="#pricing">Pricing</a>
         </li>
         <li>
-          <a href="3">Blog</a>
+          <a href="#">Blog</a>
         </li>
         <li>
-          <button className="font-semibold text-sm bg-[#1465FA] text-white w-[76px] h-[34px] rounded">
+          <button className="w-[76px] h-[34px] font-semibold text-sm bg-primary text-white rounded">
             Sign Up
           </button>
         </li>
