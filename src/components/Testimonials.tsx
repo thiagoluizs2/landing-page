@@ -6,8 +6,8 @@ export default function Testimonials() {
       <h2 className="font-black text-[36px] text-center">Testimonials</h2>
       <div className="flex justify-between items-center">
         <div className="h-[347px] w-[291px]">
-          <div className="flex flex-col justify-center items-center gap-3 mb-10">
-            <Image src="/Avatar.png" alt="" width={120} height={120} />
+          <div className="flex flex-col justify-center items-center gap-3 mb-8">
+            <Image src="/Avatar.png" alt="" width={76} height={76} />
             <Image src="/icon.png" alt="" width={24} height={24} />
           </div>
           <div className="bg-[#F6F6F6] p-6 flex flex-col gap-4 justify-center">
@@ -19,8 +19,8 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="h-[347px] w-[291px]">
-          <div className="flex flex-col justify-center items-center gap-3 mb-10">
-            <Image src="/Avatar.png" alt="" width={120} height={120} />
+          <div className="flex flex-col justify-center items-center gap-3 mb-8">
+            <Image src="/Avatar.png" alt="" width={76} height={76} />
             <Image src="/icon.png" alt="" width={24} height={24} />
           </div>
           <div className="bg-[#F6F6F6] p-6 flex flex-col gap-4 justify-center">
@@ -32,8 +32,8 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="h-[347px] w-[291px]">
-          <div className="flex flex-col justify-center items-center gap-3 mb-10">
-            <Image src="/Avatar.png" alt="" width={120} height={120} />
+          <div className="flex flex-col justify-center items-center gap-3 mb-8">
+            <Image src="/Avatar.png" alt="" width={76} height={76} />
             <Image src="/icon.png" alt="" width={24} height={24} />
           </div>
           <div className="bg-[#F6F6F6] p-6 flex flex-col gap-4 justify-center">
