@@ -2,7 +2,7 @@ import { Icons } from "@/config/icons";
 
 export default function Hero() {
   return (
-    <section className="mt-[77px] flex flex-col items-center justify-center text-center">
+    <section className="flex flex-col items-center justify-center text-center mt-[78px]">
       <h1 className="text-[64px] font-black">
         Manage All Your Social Media Profiles From One Place.
       </h1>

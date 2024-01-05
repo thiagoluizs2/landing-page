@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="hidden md:inline-block">
       <ul className="flex items-center gap-[30px]">
         <li>
           <a href="#">Features</a>

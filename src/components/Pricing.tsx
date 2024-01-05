@@ -2,7 +2,7 @@ import PricingCard from "./PricingCard";
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="flex mt-[78px] justify-between">
+    <section id="pricing" className="flex justify-between mt-[78px]">
       <PricingCard>
         <PricingCard.Title>Startup</PricingCard.Title>
         <PricingCard.Value>$14</PricingCard.Value>
