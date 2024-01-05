@@ -6,7 +6,7 @@ export default function Navbar() {
           <a href="#">Features</a>
         </li>
         <li>
-          <a href="#">Case Studies</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#pricing">Pricing</a>

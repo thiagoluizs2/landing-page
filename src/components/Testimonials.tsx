@@ -22,7 +22,7 @@ export function Testimonial({ name, comment }: TestimonialProps) {
 
 export default function Testimonials() {
   return (
-    <section className="flex flex-col gap-7 mt-[78px]">
+    <section id="testimonials" className="flex flex-col gap-7 mt-[78px]">
       <h2 className="font-black text-[36px] text-center">Testimonials</h2>
       <div className="flex justify-between items-center">
         <Testimonial
